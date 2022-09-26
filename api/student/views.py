@@ -2,7 +2,7 @@
 
 from flask import Blueprint
 from flask import jsonify
-from .models import Student
+from .models import Student,Teacher
 crud_blueprint = Blueprint('crud', __name__, url_prefix='/')
 
 @crud_blueprint.route('',methods=['POST','GET','PUT','DELETE'])

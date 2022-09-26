@@ -1,6 +1,5 @@
-from flask import Flask
 
-from  registrations.create_app import create_app
+from  registrations.build_app import create_app
 
 app=create_app()
 
